@@ -5,7 +5,7 @@ class t extends Thread
 		System.out.println("Thread is under Running...");
 		for(int i=1;i<10;i++)
 		{
-			System.out.println("i = "+i+" "+this);
+			System.out.println("i = "+i);
 		}
 	}
 }
