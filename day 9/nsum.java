@@ -21,14 +21,7 @@ public class nsum
 				{
 					osum=osum+Character.getNumericValue(s.charAt(j));
 				}
-			}
-		}
-		for(int i=0;i<3;i++)
-		{
-			String s=Integer.toString(a[i]);
-			for(int j=0;j<s.length();j++)
-			{
-				if(j%2==0)
+				else
 				{
 					esum=esum+Character.getNumericValue(s.charAt(j));
 				}
